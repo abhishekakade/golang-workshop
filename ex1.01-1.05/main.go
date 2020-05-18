@@ -1,4 +1,4 @@
-// Exercise 1.02 to 1.04
+// Exercise 1.02 to 1.05
 package main
 
 import (
@@ -36,6 +36,15 @@ func main() {
 	// 	startUpTime = time.Now()
 	// )
 
+	// Exercise 1.05
+	// Shorter way to declare variables
+	// Debug := false
+	// LogLevel := "info"
+	// startUpTime := time.Now()
+
+	// Exercise 1.06
+	// Declaring Multiple Variables with a Short Variable Declaration
+	// Debug, LogLevel, startUpTime := false, "info", time.Now()
 	fmt.Println(firstName)
 	fmt.Println(lastName)
 	fmt.Println(age)
