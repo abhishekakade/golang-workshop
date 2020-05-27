@@ -14,6 +14,9 @@ func bubbleSort(nums []int) {
 
 	// In for loop, in the `initial statement`, define a `Boolean` with the initial value of `true`
 	// In the condition, check that Boolean. Leave the post statement empty
+
+	// Basically, this will declare a variable `swapped` with value `true`
+	// And will run this `for` loop as long as the value of `swapped` is `true`
 	for swapped := true; swapped; {
 
 		// Set the Boolean variable to `false`
